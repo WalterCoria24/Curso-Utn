@@ -1,0 +1,119 @@
+
+nav img{
+      height: 50px;
+      width: 50px;
+}
+ header nav{
+    background-color: black;
+        justify-content: space-between;
+        display: flex;
+    align-items: center;
+ }
+
+ header nav ul{
+     margin: 27px;
+    display: flex;
+    gap: 30px;
+}
+ header nav ul li a{
+    color: white;
+ }
+
+
+p{
+    color: white;
+}
+
+div{    
+      box-shadow: 3px 2px 23px white;
+         display: flex;
+        background: transparent;
+}
+.grid-conteiner {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 20px; 
+    padding: 20px; 
+    
+    background: black;
+    box-shadow: 2px -8px 16px black;
+}
+
+.grid-item {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    text-align: center;
+    box-shadow: none;
+    padding: 20px;
+    margin: 0; 
+    background: #292727;
+    border-radius: 80px;
+}
+
+.grid-item img {
+    width: 100%;
+    height: auto; 
+    max-width: 200px; 
+    transition: transform 0.3s ease-in-out;
+    display: block; 
+    margin-bottom: 10px; 
+}
+
+.grid-item img:hover {
+    transform: scale(1.1);
+}
+
+.Flex-padre {
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+    background-color: transparent;
+}
+
+
+@media (max-width: 768px) {
+    .grid-conteiner {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 15px;
+    }
+}
+
+@media (max-width: 480px) {
+    .grid-conteiner {
+        grid-template-columns: 1fr;
+        padding: 10px;
+    }
+}
+footer div img{
+    display: flex;
+    width: 50px;
+    height: 50px;
+}
+footer div{
+        display: flex;
+    justify-content: center;
+    gap: 30px;
+    box-shadow: 1px 1px 30px black;
+        padding: 22px;
+    background: black;
+}
+
+div#siguiente-pagina{
+    display: flex;
+    box-shadow: none;
+    justify-content: center;
+    background-color: transparent;
+     box-shadow: 2px -24px 53px black;
+     justify-content: center;
+} 
+
+.productos div#siguiente-pagina img{
+ width: 50px;
+ height: 50px;
+     height: 50px;
+    width: 50px;
+    display: flex;
+    position: relative;
+    left: 957px;
+}

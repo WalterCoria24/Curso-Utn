@@ -1,0 +1,60 @@
+.contactos main div form{
+        
+    font-size: xx-large;
+    font-family: fantasy;
+    padding: 30px;
+}
+
+.contactos main div input{
+   justify-content: center;
+   font-size: x-large;
+
+}
+
+#selector{
+      font-size: x-large;
+}
+
+
+footer div{
+   display: flex;
+    justify-content: center;
+    gap: 30px;
+    box-shadow: 1px 1px 30px rgb(245, 240, 240);
+}
+
+.contacto-form {
+    color: white;
+    border: none;
+    max-width: 600px; 
+    margin: 0 auto;   
+    padding: 20px;
+    border: 1px solid #ccc; 
+    border-radius: 8px;
+        background: #452121;;
+}
+.form-grupo {
+    margin-bottom: 15px;
+    display: block;
+        box-shadow: none;
+}
+
+.form-grupo label {
+    display: block; 
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+div.radio-grupo{
+        display: contents;
+}
+
+#selector, #comentario{
+        width: 92%;
+}
+
+div.form-grupo.buttons{
+       
+        display: flex;
+    justify-content: space-between;
+}

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabajo-Practico</title>
+    <script src="https://kit.fontawesome.com/f67ef8a566.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./Style.css/contactos.css">
+    
+</head>
+<body class="contactos">
+
+    <!--Seccion de navbar-->
+     <header>
+         <nav>
+          <a href="./Index.html"> <img src="./asset/img/Home.png" alt="Homeimg"> </a>
+              <ul class="dm-serif-text-regular-italic">
+                <Li > <a href="./Index.html"><i class="fa-solid fa-house"></i></a> </Li>
+                <Li> <a href="./ventas.html"><i class="fa-solid fa-cart-shopping"></i></a></Li>
+                <Li> <a href="./productos.html"><i class="fa-solid fa-headset"></i></a></Li>
+                <Li>  <a href="./contactos.html"> <i class="fa-solid fa-phone"></i></a></Li>
+            </ul>
+         </nav>
+      </header>
+    <!--seccion de contacto-->
+    <main>
+  
+    <form class="contacto-form">
+        <div class="form-grupo">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+        </div>
+
+        <div class="form-grupo">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+        </div>
+
+        <div class="form-grupo">
+            <label for="telefono">Teléfono:</label>
+            <input type="tel" id="telefono" name="telefono">
+        </div>
+
+        <div class="form-grupo">
+            <label for="comentario">Comentario:</label>
+            <textarea id="comentario" name="comentario" rows="4" cols="50"></textarea>
+        </div>
+
+        <div class="form-grupo ">
+            <label for="selector">Motivo de contacto:</label>
+            <select id="selector" name="selector">
+                <option value="buy">Acceder a compra</option>
+                <option value="work">Quiero trabajar con ustedes</option>
+                <option value="wholesaler">Quiero realizar compra por mayor</option>
+                <option value="pay">Acceder a pago</option>
+            </select>
+        </div>
+
+        <fieldset class="form-grupo">
+            <legend>Tipo de Contacto:</legend>
+            <div class="radio-grupo">
+                <input type="radio" id="radio1" name="tipo_contacto" value="llamada">
+                <label for="radio1">Llamada</label>
+
+                <input type="radio" id="radio2" name="tipo_contacto" value="email">
+                <label for="radio2">Email</label>
+
+                <input type="radio" id="radio3" name="tipo_contacto" value="whatsapp">
+                <label for="radio3">WhatsApp</label>
+            </div>
+        </fieldset>
+
+        <div class="form-grupo buttons">
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Reestablecer">
+        </div>
+    </form>
+
+    </main>
+   
+</body>
+</html>
